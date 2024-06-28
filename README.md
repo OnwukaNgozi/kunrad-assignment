@@ -13,24 +13,29 @@ You can create the folders on the desktop or where the want your file to be.
 1. First is the main folder(let's name it terraform project), containing two folders named provider and modules.
     Inside the provider folder is the provider.tf file.
     In the modules folder, we have:
-      a. s3 bucket folder, containing a main.tf file and and output.tf file.
-     This main.tf file contains your s3 bucket creation and object upload configurations and output.tf file outputs the result of your main.tf.
+      a. s3 bucket folder, containing a s3.tf file and s3output.tf file.
+     This s3.tf file contains your s3 bucket creation and object upload configurations, while s3output.tf file outputs the result of your s3.tf.
    
-      b. cloudfront folder, containing its main.tf file and and output.tf file
-     This main.tf file contains your cloudfront ploicy and s3 bucket routing configurations and output.tf file outputs the result of your main.tf.
+      b. cloudfront folder, containing its cf.tf file and cfoutput.tf file
+     This cf.tf file contains your cloudfront ploicy and s3 bucket routing configurations while cfoutput.tf file outputs the result of your cf.tf.
    
-      c. route53 folder, containing its main.tf file and and output.tf file
-     This main.tf file contains your certificate request and routing the domain name to route53 configurations and output.tf file outputs the result of your main.tf.
+      c. route53 folder, containing its r53.tf file.
+     This r53.tf file contains your certificate request and routing the domain name to route53 configurations.
    
-3. Then, inside this erraform project folder, we have main.tf and output.tf file
+2. Then, inside this erraform project folder, we have main.tf and output.tf file
+   This main.tf file connects all the three modules, while output.tf file contains an output declaration of any file we want on the terminal.
 
 
 On your terminal, configure an aws account by running aws configure and following the prompt.
-Then, running "terraform init" to initialize the terraform and connects it to a service provider (code in my provider.ft file)
 
-Running my 
+Then, run "terraform init" to initialize the terraform and connect it to a service provider (code in my provider.ft file)
+
+Runn "terraform plan' to see the actions to be taken.
+
+Run 'terraform apply' to effect the actions already staged.
 
 
+Here 
 ![s3 bucket](<aws s3-1.png>)
 
 
