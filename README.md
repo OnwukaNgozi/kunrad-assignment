@@ -30,18 +30,25 @@ On your terminal, configure an aws account by running aws configure and followin
 
 Then, run "terraform init" to initialize the terraform and connect it to a service provider (code in my provider.ft file)
 
-Runn "terraform plan' to see the actions to be taken.
+Run "terraform plan' to see the actions to be taken. This triggers my main.tf file thereby calling all the other files in their different modules.
 
-Run 'terraform apply' to effect the actions already staged.
+Run 'terraform apply' to effect the actions already staged, and displays its output.
 
 
-Here 
+Here is my s3 bucket successfully uploaded.
+
 ![s3 bucket](<aws s3-1.png>)
 
+
+Here is certificate obtained and my domain name.
 
 ![cert](<cert evidence-1.png>)
 
 
+Here is the result of my output.tf file, the cloudfront domain name and my s3 bucket address.
 
 ![apply](<Apply done-1.png>)
+
+
+Using my cloudfront domain name as seen above, displays the webpage that is contained in my s3 bucket.
 
