@@ -35,7 +35,7 @@ Run "terraform plan' to see the actions to be taken. This triggers my main.tf fi
 Run 'terraform apply' to effect the actions already staged, and displays its output.
 
 
-#Here is my s3 bucket successfully uploaded.
+#Here is my s3 bucket successfully uploaded.#
 
 ![s3 bucket](<aws s3-1.png>)
 
