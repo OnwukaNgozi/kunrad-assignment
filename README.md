@@ -8,7 +8,6 @@ Prerequisites:
 Steps:
 
 
-https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
 
 ![s3 bucket](<aws s3-1.png>)
 
