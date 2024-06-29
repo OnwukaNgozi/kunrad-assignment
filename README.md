@@ -14,7 +14,7 @@ You can create the folders on the desktop or where the want your file to be.
     Inside the provider folder is the provider.tf file.
     In the modules folder, we have:
       a. s3 bucket folder, containing a s3.tf file and s3output.tf file.
-     This [s3.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/s3.tf) file contains your s3 bucket creation and object upload configurations, while s3output.tf file outputs the result of your [s3.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/s3output.tf).
+     This [s3.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/s3.tf) file contains your s3 bucket creation and object upload configurations, while [s3output.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/s3output.tf) file outputs the result of your s3.tf.
    
       b. cloudfront folder, containing its cf.tf file and cfoutput.tf file
      This [cf.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/cf.tf) file contains your cloudfront ploicy and s3 bucket routing configurations while [cfoutput.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/cfoutput.tf) file outputs the result of your cf.tf.
