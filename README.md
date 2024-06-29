@@ -28,7 +28,7 @@ You can create the folders on the desktop or where the want your file to be.
 
 # On your terminal, configure an aws account by running aws configure and following the prompt.
 
-# Then, run "terraform init" to initialize the terraform and connect it to a service provider (code in my provider.ft file)
+# Then, run "terraform init" to initialize the terraform and connect it to a service provider (code in my [provider.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/provider.tf) file)
 
 # Run "terraform plan' to see the actions to be taken. This triggers my main.tf file thereby calling all the other files in their different modules.
 
