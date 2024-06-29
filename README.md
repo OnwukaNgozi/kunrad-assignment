@@ -10,6 +10,13 @@
 File step is file structure because the files are arranged in modules.
 You can create the folders on the desktop or where the want your file to be.
 
+
+Here:
+
+![vs](<vscode.png>)
+
+
+
 1. First is the main folder(let's name it terraform project), containing two folders named provider and modules.
     Inside the provider folder is the provider.tf file.
     In the modules folder, we have:
