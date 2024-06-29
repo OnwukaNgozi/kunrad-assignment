@@ -1,12 +1,12 @@
-** This is a README file for the S3 bucket, object upload, viewing through cloudfront, routing through AWS route53 and obtaining our domain name certificate.**
+# This is a README file for the S3 bucket, object upload, viewing through cloudfront, routing through AWS route53 and obtaining our domain name certificate.
 
-Prerequisites:
+# Prerequisites:
 1. AWS Account
 2. Domain name registered in Route 53
 3. Terraform installed on your local machine
 4. VScode and/or gitbash
 
-Steps:
+# Steps:
 File step is file structure because the files are arranged in modules.
 You can create the folders on the desktop or where the want your file to be.
 
@@ -26,29 +26,32 @@ You can create the folders on the desktop or where the want your file to be.
    This main.tf file connects all the three modules, while output.tf file contains an output declaration of any file we want on the terminal.
 
 
-On your terminal, configure an aws account by running aws configure and following the prompt.
+# On your terminal, configure an aws account by running aws configure and following the prompt.
 
-Then, run "terraform init" to initialize the terraform and connect it to a service provider (code in my provider.ft file)
+# Then, run "terraform init" to initialize the terraform and connect it to a service provider (code in my provider.ft file)
 
-Run "terraform plan' to see the actions to be taken. This triggers my main.tf file thereby calling all the other files in their different modules.
+# Run "terraform plan' to see the actions to be taken. This triggers my main.tf file thereby calling all the other files in their different modules.
 
-Run 'terraform apply' to effect the actions already staged, and displays its output.
+# Run 'terraform apply' to effect the actions already staged, and displays its output.
 
 
-#Here is my s3 bucket successfully uploaded.#
+# Here is my s3 bucket successfully uploaded.
 
 ![s3 bucket](<aws s3-1.png>)
 
 
-Here is certificate obtained and my domain name.
+
+# Here is certificate obtained and my domain name.
 
 ![cert](<cert evidence-1.png>)
 
 
-Here is the result of my output.tf file, the cloudfront domain name and my s3 bucket address.
+
+# Here is the result of my output.tf file, the cloudfront domain name and my s3 bucket address.
 
 ![apply](<Apply done-1.png>)
 
 
-Using my cloudfront domain name as seen above, displays the webpage that is contained in my s3 bucket.
+
+# Using my cloudfront domain name as seen above, displays the webpage that is contained in my s3 bucket.
 
