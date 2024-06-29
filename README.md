@@ -14,16 +14,16 @@ You can create the folders on the desktop or where the want your file to be.
     Inside the provider folder is the provider.tf file.
     In the modules folder, we have:
       a. s3 bucket folder, containing a s3.tf file and s3output.tf file.
-     This s3.tf file contains your s3 bucket creation and object upload configurations, while s3output.tf file outputs the result of your s3.tf.
+     This [s3.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/s3.tf) file contains your s3 bucket creation and object upload configurations, while s3output.tf file outputs the result of your [s3.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/s3output.tf).
    
       b. cloudfront folder, containing its cf.tf file and cfoutput.tf file
-     This cf.tf file contains your cloudfront ploicy and s3 bucket routing configurations while cfoutput.tf file outputs the result of your cf.tf.
+     This [cf.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/cf.tf) file contains your cloudfront ploicy and s3 bucket routing configurations while [cfoutput.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/cfoutput.tf) file outputs the result of your cf.tf.
    
       c. route53 folder, containing its r53.tf file.
      This [r53.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/r53.tf) file contains your certificate request and routing the domain name to route53 configurations.
    
 2. Then, inside this erraform project folder, we have main.tf and output.tf file
-   This main.tf file connects all the three modules, while output.tf file contains an output declaration of any file we want on the terminal.
+   This [main.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/main.tf) file connects all the three modules, while [output.tf](https://github.com/OnwukaNgozi/kunrad-assignment/blob/main/output.tf) file contains an output declaration of any file we want on the terminal.
 
 
 # On your terminal, configure an aws account by running aws configure and following the prompt.
