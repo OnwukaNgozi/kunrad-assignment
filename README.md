@@ -60,5 +60,5 @@ Here:
 
 
 
-# Using my cloudfront domain name (d3ckj09salo7sj.cloudfront.net), or my s3 bucket link (http://my-unique-ngozi-bucket-name2.s3-website-us-east-1.amazonaws.com/) as seen above, displays the webpage that is contained in my s3 bucket.
+# Using my cloudfront domain name ([d3ckj09salo7sj.cloudfront.net](d3ckj09salo7sj.cloudfront.net/)), or my s3 bucket link ([my-unique-ngozi-bucket-name2.s3-website-us-east-1.amazonaws.com/](http://my-unique-ngozi-bucket-name2.s3-website-us-east-1.amazonaws.com/)) as seen above, displays the webpage that is contained in my s3 bucket.
 
